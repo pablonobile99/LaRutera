@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR - Catálogo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="box-logo">
+                    <img src="../images/logo.png" alt="" class="nav logo">
+                </div>
+                <a class="navbar-brand" href="#">
+                    <p class="nav texto texto-nav">La rutera</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalogo.html">CATALOGO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carga.html">AÑADIR EXPERIENCIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">SOBRE NOSOTROS</a>
+                        </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="">
+            <p class="d-inline-flex gap-1">
+                <button class="box-filtro boton texto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Filtros
+                </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="box-filtro box-filtro-selec texto titulo">
+                    <p>Tipo:</p>                    
+                </div>
+                <div class="box-filtro box-filtro-selec box-filtro-selec-item box-filtro-selec-item-1 texto "> 
+                    <ul class="">
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">Comidas</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">Atracciones</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                            <label class="form-check-label" for="secondCheckbox">Monumentos</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                            <label class="form-check-label" for="thirdCheckbox">Paseos</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-filtro box-filtro-selec texto titulo">
+                    <p>Zona:</p>
+                </div>
+                <div class="box-filtro box-filtro-selec box-filtro-selec-item box-filtro-selec-item-1 texto "> 
+                    <ul class="">
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">CABA</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                            <label class="form-check-label" for="secondCheckbox">Zona Norte</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                            <label class="form-check-label" for="thirdCheckbox">Zona Oeste</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                            <label class="form-check-label" for="thirdCheckbox">Zona sur</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="cata">
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1" class="link-none">
+                <a href="experiencia.html">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="box box-1">
+                <a href="experiencia.html" class="link-none">
+                    <div class="box-img">
+                        <img src="../images/imagen-carga.jpg" alt="" class="img-cata">
+                    </div>
+                    <div class="box-est">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                        <img src="../images/estrella.png" alt="" class="img-cata-estrella">
+                    </div>
+                    <div class="box-tit">
+                        <p class="texto titulo">Título de la experiencia</p>
+                    </div>
+                    <div class="box-txt">
+                        <p class="texto"> Breve descripción de la experiencia.para mas información se debe acceder a la
+                            experiencia.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="btn-back">
+            <a href="../index.html" class="link-none">
+                <p class="boton texto">VOLVER</p>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
