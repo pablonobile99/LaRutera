@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #F9FFE7;
+    margin: 0%;
+}
+
+.texto{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: large;
+}
+
+.texto-nav{
+    font-size: 2rem;
+}
+
+.btn-back{
+    display: inline-flex;
+    padding: 1% 2%;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+.link-none{
+    text-decoration: none;
+}

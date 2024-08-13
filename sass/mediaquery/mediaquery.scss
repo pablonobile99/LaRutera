@@ -1,0 +1,23 @@
+@media (width <= 800px) {
+    .cata{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}  
+
+@media (800px < width) and (width < 950px) {
+    .cata{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .box{
+        height: 25rem;
+    }
+}
+
+@media (width >= 950px) {
+    .cata{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .box{
+        height: 28rem;
+    }
+}
