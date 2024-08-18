@@ -1,1 +1,51 @@
+.carousel{
+    width: 65%;
+}
 
+.exp{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 18rem 2rem 5rem 2rem 2rem 100%;
+    grid-template-areas:
+    'carro mapa'
+    'titl mapa'
+    'com mapa'
+    'nivel mapa'
+    'conteo mapa'
+    'opinion opinion';
+
+    &cont{
+        
+        &1{
+            grid-area: carro;
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+        }
+        &2{
+            grid-area: mapa;
+            color: aqua;
+        }
+        &3{
+            grid-area: titl;
+        }
+        &4{
+            grid-area: com;            
+        }
+        &5{
+            grid-area: nivel;
+            
+        }
+        &6{
+            grid-area: conteo;
+            .img-exp-estrella{
+                width: 4%;
+                height: 4%;
+            }                 
+        }
+        &7{
+            grid-area: opinion;            
+        }
+    }
+}

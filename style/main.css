@@ -27,6 +27,9 @@ body {
   bottom: 1%;
   right: 1%;
 }
+.btn-back:hover {
+  opacity: 70%;
+}
 
 .link-none {
   text-decoration: none;
@@ -36,6 +39,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .box-logo {
@@ -216,6 +220,19 @@ header {
   margin: 0% 5%;
 }
 
+.formulario {
+  margin: 5%;
+}
+
+.form-2 {
+  display: flex;
+  margin-bottom: 2%;
+}
+.form-2 .form-select {
+  width: 20%;
+  margin: 0% 5%;
+}
+
 .filtro {
   display: inline-flex;
 }
@@ -242,56 +259,100 @@ header {
   text-decoration: none;
   color: #F9FFE7;
 }
+.boton:hover {
+  opacity: 70%;
+}
 
 .cata {
   width: 90%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 5%;
-  margin: 5%;
+  display: inline-flexbox;
 }
 
 .box {
-  width: 100%;
   background-color: white;
   border: 2px solid gray;
   box-shadow: 3px 3px 4px gray;
   height: 23rem;
+  width: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  opacity: 90%;
 }
-
 .box-img {
   width: 90%;
-  height: 40%;
-  margin: 5% 5%;
+  height: 100%;
 }
-
-.img-cata {
-  width: 100%;
-}
-
 .box-est {
-  height: 10%;
+  height: 100%;
   margin: 0% 5%;
+}
+.box-tit {
+  height: 100%;
+  margin: 0% 5%;
+}
+.box-txt {
+  height: 100%;
+  margin: 0% 5%;
+}
+.box:hover {
+  transition: 1s;
+  box-shadow: 8px 8px 5px rgb(92, 92, 92);
+  opacity: 100%;
 }
 
 .img-cata-estrella {
   width: 10%;
 }
 
-.box-tit {
-  height: 20%;
-  margin: 0% 5%;
-}
-
-.box-txt {
-  height: 40%;
-  margin: 0% 5%;
+.img-cata {
+  width: 100%;
 }
 
 .info-cont-box {
   display: flex;
   justify-content: center;
+}
+
+.carousel {
+  width: 65%;
+}
+
+.exp {
+  margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 18rem 2rem 5rem 2rem 2rem 100%;
+  grid-template-areas: "carro mapa" "titl mapa" "com mapa" "nivel mapa" "conteo mapa" "opinion opinion";
+}
+.expcont1 {
+  grid-area: carro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expcont2 {
+  grid-area: mapa;
+  color: aqua;
+}
+.expcont3 {
+  grid-area: titl;
+}
+.expcont4 {
+  grid-area: com;
+}
+.expcont5 {
+  grid-area: nivel;
+}
+.expcont6 {
+  grid-area: conteo;
+}
+.expcont6 .img-exp-estrella {
+  width: 4%;
+  height: 4%;
+}
+.expcont7 {
+  grid-area: opinion;
 }
 
 @media (width <= 800px) {
