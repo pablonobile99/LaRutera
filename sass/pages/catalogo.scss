@@ -30,7 +30,11 @@
 
 .cata{
     width: 90%;
-    display: inline-flexbox;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 5%;
+    margin: 5%;
 }
 
 .box{
@@ -45,7 +49,8 @@
     opacity: 90%;
     &-img{
         width: 90%;
-        height: 100%;
+        height: 40%;
+        margin: 5% 5%;
     }
     &-est{
         height: 100%;

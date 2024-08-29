@@ -1,6 +1,10 @@
 @media (width <= 800px) {
     .cata{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1%;
+    }
+    .box{
+        height: 30rem;
     }
 }  
 
