@@ -6,7 +6,46 @@
     .box{
         height: 30rem;
     }
-}  
+    .texto{
+        font-size: small;
+    }
+    .box-index{
+        width: 40vw;
+        height: 40vw;
+    
+    }
+    .box-index-small{
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .exp{
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        grid-template-rows: 15rem 2rem 8rem 2rem 2rem 20rem 100%;
+        grid-template-areas:
+        'carro'
+        'titl'
+        'com'
+        'nivel'
+        'conteo'
+        'mapa'
+        'opinion'
+        ;
+        &cont{
+            &2{
+                grid-area: mapa;
+                height: 20rem;
+
+            }
+        }
+    }
+    iframe{
+        width: 80vw;
+        height: 80vw;
+    }
+}
 
 @media (800px < width) and (width < 950px) {
     .cata{

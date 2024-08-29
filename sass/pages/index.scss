@@ -1,7 +1,7 @@
 .box-index{
     background-color: rgba(128, 128, 0, 0.7);
-    width: 25rem;
-    height: 25rem;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -10,8 +10,8 @@
 }
 .box-index-small{
     background-color: rgba(209, 151, 63, 0.7);
-    width: 15rem;
-    height: 15rem;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     z-index: -1;
     display: flex;
@@ -41,23 +41,23 @@
 }
 .box-index-small-1{
     position: relative;
-    right: 3rem;
-    bottom: 2rem;
+    right: 2vw;
+    bottom: 3vw;
 }
 .box-index-small-2{
     position: relative;
-    left: 3rem;
-    top: 8rem;
+    left: 4vw;
+    top: 10vw;
 }
 .box-index-small-3{
     position: relative;
-    right: 2rem;
-    top: 3rem;
+    right: 2vw;
+    top: 3vw;
 }
 .box-index-small-4{
     position: relative;
-    left: 5rem;
-    bottom: 3rem;
+    left: 6vw;
+    bottom: 4vw;
 }
 
 .intro-index{
