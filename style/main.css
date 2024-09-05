@@ -33,6 +33,7 @@ body {
 
 .link-none {
   text-decoration: none;
+  color: black;
 }
 
 header {
@@ -45,6 +46,9 @@ header {
 .box-logo {
   width: 7%;
   margin: 0 2%;
+  animation-duration: 4s;
+  animation-name: rotar;
+  animation-iteration-count: infinite;
 }
 
 .logo {
@@ -65,9 +69,10 @@ header {
   width: 30vw;
   height: 30vw;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  text-align: center;
+  align-content: center;
+  padding-bottom: 10%;
 }
 
 .box-index-small {
@@ -284,7 +289,18 @@ header {
   grid-area: opinion;
 }
 
-@media (width <= 800px) {
+@keyframes rotar {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(-1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@media (width <= 650px) {
   .cata {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1%;
@@ -294,6 +310,9 @@ header {
   }
   .texto {
     font-size: small;
+  }
+  .texto-small {
+    font-size: xx-small;
   }
   .box-index {
     width: 40vw;
@@ -319,12 +338,18 @@ header {
     height: 80vw;
   }
 }
-@media (800px < width) and (width < 950px) {
+@media (650px < width) and (width < 950px) {
   .cata {
     grid-template-columns: repeat(3, 1fr);
   }
   .box {
     height: 25rem;
+  }
+  .texto {
+    font-size: medium;
+  }
+  .texto-small {
+    font-size: x-small;
   }
 }
 @media (width >= 950px) {

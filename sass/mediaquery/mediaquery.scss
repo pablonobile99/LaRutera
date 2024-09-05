@@ -1,4 +1,4 @@
-@media (width <= 800px) {
+@media (width <= 650px) {
     .cata{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 1%;
@@ -8,7 +8,11 @@
     }
     .texto{
         font-size: small;
+        &-small{
+            font-size: xx-small;
+        }
     }
+
     .box-index{
         width: 40vw;
         height: 40vw;
@@ -47,12 +51,18 @@
     }
 }
 
-@media (800px < width) and (width < 950px) {
+@media (650px < width) and (width < 950px) {
     .cata{
         grid-template-columns: repeat(3, 1fr);
     }
     .box{
         height: 25rem;
+    }
+    .texto{
+        font-size: medium;
+        &-small{
+            font-size: x-small;
+        }
     }
 }
 

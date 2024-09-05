@@ -7,6 +7,10 @@ header{
 .box-logo{
     width: 7%;
     margin: 0 2%;
+
+    animation-duration: 4s;
+    animation-name: rotar;
+    animation-iteration-count: infinite;
 }
 .logo{
     width: 100%;
